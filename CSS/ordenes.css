@@ -1,0 +1,65 @@
+body, html{
+    margin-top: 50px;
+}
+
+#libros{
+    width: 95%;
+    height: 400px;
+    margin-top: 1px;
+}
+
+#ordenes{
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    overflow: scroll;
+}
+
+#pedidos{
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    overflow: scroll;
+}
+
+table {
+    font-family: Calibri;
+    font-size: 15px;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+tr, th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+  
+
+#btn_lib_ord{
+    float: left;
+    padding: 5px 5px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: darkcyan;
+    color: white;
+}
+
+
+#contenido{
+
+    width: 100%;
+    height: 400px;
+    /*Contenedores Hijos Centrados*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px auto;
+    width: 100%;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.16);
+    border-radius: 25px;
+}

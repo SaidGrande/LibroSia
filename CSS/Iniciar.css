@@ -1,0 +1,66 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#000000, #2b2b2b);
+}
+
+
+.libros{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.16);
+    border-radius: 25px;
+}
+
+.libros h2{
+    text-align: center;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.libros .elemento label{
+
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.libros .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+
+.libros .elemento .btn_inSesion{
+    background-color: #ffffff; /* Cambia este color al que desees */
+    color: #000000; /* Color del texto dentro del botón */
+    border: none;
+    cursor: pointer;
+    letter-spacing: 5px;
+    padding: 10px 20px; /* Ajusta el tamaño del botón si es necesario */
+    border-radius: 5px; /* Añade bordes redondeados si lo deseas */
+}
+
+.libros .elemento .btn_inSesion:hover{
+    background-color: #fcfcfc; /* Color cuando el botón está en hover */
+    color: #000000; /* Cambia el color del texto en hover si es necesario */
+    cursor: pointer;
+    letter-spacing: 5px; 
+}
+
+.libros .elemento .btn_inSesion:hover{
+    background-color: #ffffff; /* Azul oscuro cuando se pasa el ratón */
+    color: white;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
